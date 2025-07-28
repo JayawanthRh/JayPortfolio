@@ -1,9 +1,7 @@
 import React from "react";
-import UnccImg from "../../assets/uncc.png";
-import NcrImg from "../../assets/ncr.png";
-import VirtusaImg from "../../assets/virtusa.png";
-import AmazonImg from "../../assets/amazon.png";
-import RandstadImg from "../../assets/salemAutomation.png"
+import UnccImg from "../../assets/IBM.png";
+import NcrImg from "../../assets/zestmoney.png";
+import RandstadImg from "../../assets/Kyndryl.png"
 
 const Companies = () => {
   return (
@@ -12,8 +10,8 @@ const Companies = () => {
 <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
-            <p className="experience__year"> January 2025 - Present</p>
-            <h3 className="experience__title">Software Developer</h3>
+            <p className="experience__year"> Jan 2023 - Dec 2023</p>
+            <h3 className="experience__title">Software Engineer – Backend & Application Modernization</h3>
           </div>
           <div className="experience__image">
             <img src={RandstadImg} alt="Experience Image" />
@@ -22,10 +20,20 @@ const Companies = () => {
 
         <div className="experience__box">
           <p>
-          ● Designed and implemented a scalable Python application within the Ignition platform, integrating RESTful APIs to enable seamless data exchange and improving system performance.  <br/>
-          ● Migrated complex Crisp logic to Python scripts within Ignition, streamlining process automation and improving execution efficiency.  <br/>
-          ● Optimized database operations using Microsoft SQL Server, ensuring efficient data storage, retrieval, and management.  <br/>
-          ● Created interactive screens and views to enhance user experience, improve accessibility, and streamline workflow to clients.
+          ● Spearheaded modernization of legacy monoliths by designing and deploying microservices using Spring Boot and
+GraphQL, improving maintainability and reducing API payload size by 40%.  <br/>
+          ● Implemented GraphQL APIs to enable efficient data querying and reduce payload size, enhancing client
+responsiveness and developer flexibility.  <br/>
+          ● Led efforts in legacy application migration to cloud-native architectures, using containerization and service-based
+designs to modernize functionality and improve maintainability.  <br/>
+          ● Integrated with Kafka for asynchronous event-driven processing, enhancing throughput and system responsiveness
+in high-volume environments.<br/>
+          ●Applied JPA/Hibernate and SQL/NoSQL databases for efficient data modeling, transaction management, and
+optimized query performance. <br/>
+          ●Supported cloud enablement and performance tuning efforts, ensuring high availability, secure deployments, and
+optimal resource utilization across environments. <br/>
+          ● Collaborated with architects and cross-functional teams to define technical roadmaps, implement design patterns,
+and support CI/CD pipelines for streamlined delivery. <br/>
           </p>
         </div>
       </div>
@@ -33,8 +41,8 @@ const Companies = () => {
       <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
-            <p className="experience__year"> August 2023 - May 2024</p>
-            <h3 className="experience__title">Software Engineer Assistant</h3>
+            <p className="experience__year"> Feb 2021 - Jan 2023</p>
+            <h3 className="experience__title">Software Engineer – Backend Development</h3>
           </div>
           <div className="experience__image">
             <img src={UnccImg} alt="Experience Image" />
@@ -43,11 +51,20 @@ const Companies = () => {
 
         <div className="experience__box">
           <p>
-          ● Developed a social media platform using React.js and Node.js, enabling users to add, delete, and comment on photos, and optimized the MongoDB schema for efficient data storage and retrieval.  <br/>
-          ● Automated GitHub repository cloning, reducing TA assessment time from half a day to just 5 minutes, significantly improving workflow efficiency.  <br/>
-          ● Guided Agile teams by defining user stories, managing tasks on JIRA boards, and conducting regular sprint meetups, resulting in a 20% boost in team collaboration and a 15% increase in development efficiency.  <br/>
-          ● Mentored and evaluated 80 students in Software Engineering, delivering a structured curriculum and providing comprehensive feedback to ensure academic excellence.  <br/>
-          ● Fetched and parsed JSON data using XMLHttpRequest for seamless dynamic content rendering, enhancing the application’s user experience.  
+          ● Contributed to the development and enhancement of IBM Spectrum LSF, a high-performance workload
+management platform used to schedule and manage distributed computing jobs in hybrid cloud environments.  <br/>
+          ● Designed and maintained microservices-based backend systems using Spring Boot, enabling modular, scalable
+support for complex job orchestration and cluster scheduling.  <br/>
+          ● Built RESTful APIs for job submission, tracking, and resource allocation, ensuring secure and efficient
+communication between LSF components and external applications. Improved provisioning speed by 40%, reduced debugging time by 50%.  <br/>
+          ● Developed backend logic to interface with IBM Cloud resources, automating instance provisioning, configuration,
+and workload distribution across clusters.  <br/>
+          ● Worked on cloud-native integrations including containerization support (Docker) and service deployment on IBM
+Cloud’s infrastructure, focusing on availability and system resilience.  <br/>
+          ● Implemented internal tooling for job lifecycle monitoring, log aggregation, and fault tolerance, helping improve
+operational efficiency and debugging turnaround times. <br/>
+          ● Collaborated closely with QA and DevOps teams to support CI/CD pipelines, unit testing, and performance
+benchmarking for backend systems under heavy compute loads. <br/>
           </p>
         </div>
       </div>
@@ -55,7 +72,7 @@ const Companies = () => {
       <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
-            <p className="experience__year"> January 2020 - December 2022</p>
+            <p className="experience__year"> Nov 2020 - Feb 2021</p>
             <h3 className="experience__title">Software Engineer</h3>
           </div>
           <div className="experience__image">
@@ -64,19 +81,23 @@ const Companies = () => {
         </div>
         <div className="experience__box">
           <p>
-          ● Developed the "Builder" product, an ATM solution for creating flows and interface screens using Angular for front-end UI, Spring MVC for back-end functionality, and PostgreSQL for database integration.  <br/>
-          ● Migrated ATM solution UI to Angular, achieving a 10% performance boost, with improved load times and responsive design.  <br/>
-          ● Engineered a microservice using RESTful APIs, reducing ATM screen creation efforts by 50% and enhancing developer productivity.  <br/>
-          ● Designed and implemented an efficient data access layer using the Hibernate framework, improving application performance and scalability.  <br/>
-          ● Configured CI/CD pipelines with Jenkins, Git, Docker, and JFrog, reducing deployment errors by 21% and streamlining workflows.  <br/>
-          ● Integrated JFrog for artifact storage and retrieval, optimizing build and deployment processes.  <br/>
-          ● Achieved 92% code coverage using Protractor and JUnit, ensuring high-quality standards through automated testing and rigorous code reviews.  <br/>
-          ● Automated testing and debugging with Mockito, resolving software bugs ahead of schedule and enhancing product reliability.  
+          ● Engineered scalable and secure RESTful APIs using Spring Boot, powering critical backend services for the
+ZestMoney EMI platform across payments, user onboarding, and transaction workflows.  <br/>
+          ● Designed and optimized relational database schemas (MySQL/PostgreSQL), ensuring data integrity, query
+performance, and effective indexing for large-scale user and transaction datasets.  <br/>
+          ● Built and consumed GraphQL APIs to enable flexible client-side queries and reduce over-fetching of data,
+improving API efficiency and front-end performance.  <br/>
+          ● Integrated multiple third-party services, including payment gateways, KYC/identity providers, and notification
+platforms, ensuring seamless data exchange and secure communication across systems.  <br/>
+          ● Deployed backend services on AWS cloud, leveraging EC2, S3, RDS, and API Gateway, with a focus on high
+availability, cost optimization, and auto-scaling.  <br/>
+          ● Contributed to internal microservices frameworks adhering to ZEST compliance standards, standardizing logging,
+error handling, and authentication across services.  <br/> 
           </p>
         </div>
       </div>
 
-      <div className="experience__content">
+      {/* <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
             <p className="experience__year"> May 2019 - July 2019</p>
@@ -85,9 +106,9 @@ const Companies = () => {
           <div className="experience__image">
             <img src={VirtusaImg} alt="Experience Image" />
           </div>
-        </div>
+        </div> */}
 
-        <div className="experience__box">
+        {/* <div className="experience__box">
           <p>
             ● Created a coding platform using ReactJS, NodeJS, and MySQL, with
             custom IDEs and integrated compilers, engaging over 500 users and
@@ -104,9 +125,9 @@ const Companies = () => {
             decision-making.
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="experience__content">
+      {/* <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
             <p className="experience__year"> February 2019 - May 2019</p>
@@ -132,7 +153,7 @@ const Companies = () => {
             lecturer workload by 70% and streamlining administrative processes.
           </p>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

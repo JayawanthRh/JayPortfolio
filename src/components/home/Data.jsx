@@ -5,7 +5,7 @@ const Data = () => {
     return (
         <div className="home__data">
             <h3 className="home__hii">Hi there! I'm </h3>
-            <h1 className="home__title"> Mahathi Bandari</h1>
+            <h1 className="home__title"> Jayawanth Rayakota Harnath</h1>
             <h3 className="home__subtitle">Software Engineer</h3>
             <p className="home__description">I'm a passionate Software Developer, commited learner and technophile </p>
 

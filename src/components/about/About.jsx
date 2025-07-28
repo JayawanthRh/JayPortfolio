@@ -16,15 +16,9 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            I'm a dedicated software engineer with over 4 years of professional
-            experience in full-stack development and data science. I have a
-            proven track record of designing and implementing scalable,
-            data-driven solutions. My expertise includes a wide range of
-            technologies such as React.js, Angular, Spring, Java, and Python,
-            alongside proficiency in Agile methodologies and machine learning
-            techniques. I am passionate about leveraging technology to deliver
-            innovative solutions and create meaningful impact in dynamic and
-            challenging environments.
+          I'm Jayawanth Rayakota Harnath, a passionate Software Engineer, with a strong foundation in full-stack development and a keen interest in data science. My journey in technology has been driven by a desire to build scalable, data-driven applications that not only solve complex problems but also deliver meaningful value to users.
+          Over the years, I've honed my skills in a variety of tools and technologies, including React.js, Angular, Spring Boot, Java, and Python. This diverse tech stack has enabled me to work across the entire software development lifecycle, from crafting intuitive user interfaces to optimizing backend performance.
+          I thrive in fast-paced, Agile environments where collaboration and continuous learning are paramount. Whether it's developing user-friendly interfaces, enhancing backend efficiency, or leveraging machine learning to extract insights, I'm committed to using technology to create solutions that make a tangible impact.
           </p>
         </div>
 
