@@ -1,85 +1,60 @@
 import React from "react";
-import UnccImg from "../../assets/IBM.png";
-import NcrImg from "../../assets/zestmoney.png";
-import RandstadImg from "../../assets/Kyndryl.png"
-import TMobile from "../../assets/T-Mobile.png"
-
+// import UnccImg from "../../assets/IBM.png";
+// import NcrImg from "../../assets/zestmoney.png";
+import KyndrylImg from "../../assets/Kyndryllogo.png"
+// import TMobile from "../../assets/T-Mobile.png"
+import UpworkImg from "../../assets/Upworklogo.png"
 const Companies = () => {
   return (
     <>
 
 
-<div className="experience__content">
+      <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
-            <p className="experience__year"> Jan 2024 - Present</p>
+            <p className="experience__year"> Oct 2024 - Present</p>
             <h3 className="experience__title">Software Engineer – Backend & Application Modernization</h3>
           </div>
           <div className="experience__image">
-            <img src={TMobile} alt="Experience Image" />
+            <img src={UpworkImg} alt="Upwork logo" />
+            <p className="experience__freelancer">Freelancer</p>
           </div>
         </div>
 
         <div className="experience__box">
           <p>
-          ● Contributed across the full SDLC for Best Buy’s Customer Financing & Payments Platform, supporting flexible
-installment purchase options for electronics, appliances, and subscription services.  <br/>
-          ● Developed the Financing Restructuring module using Spring Boot, Spring IoC, Java Streams, and multithreading
-to process high-volume EMI schedules and customer purchase financing data in real time.  <br/>
-          ● Built REST and GraphQL APIs to power eligibility checks, monthly payment previews, and downloadable payment
-schedules, enabling a smoother checkout and post-purchase experience for customers.  <br/>
-          ● Created Angular front-end components for financing calculators, payment history filtering, and account
-management dashboards, improving self-service adoption and reducing call center queries.<br/>
-          ● Designed Angular modules for Financing, Customer Profile, and Orders, integrating D3.js visualizations to provide
-customers with interactive charts of payment schedules, outstanding balances, and purchase history. <br/>
-          ● Integrated real-time notifications using WebSocket + STOMP with RxJS Observables to alert customers instantly
-on payment updates, financing approvals, or promotional offers. <br/>
-          ● Delivered reactive APIs with Spring WebFlux for non-blocking processing of high-traffic financing requests during
-holiday sales events, ensuring scalability and uptime. <br/>
-          ● Implemented robust security measures by integrating OAuth with JWT authentication, enabling role-to-scope
-mapping, refresh token handling, token blacklisting, and BCrypt encryption to protect sensitive customer data.<br/>
-          ● Implemented a multi-step asynchronous workflow using Kafka and Spring State Machines to handle financing
-approvals involving third-party credit checks, fraud detection, and payment plan generation.<br/>
-          ● Modernized legacy integrations by wrapping older SOAP-based credit score services into REST APIs, enabling
-seamless orchestration without disrupting downstream compliance checks.<br/>
-          ● Managed AWS RDS (PostgreSQL) databases for financing and payments services, optimizing indexing and queries
-to handle thousands of daily transactions with low latency.<br/>
-        </p>
-        </div>
-      </div>
-
-
-<div className="experience__content">
-        <div className="experience__nameImg">
-          <div className="experience__info">
-            <p className="experience__year"> Jan 2023 - Dec 2023</p>
-            <h3 className="experience__title">Software Engineer – Backend & Application Modernization</h3>
-          </div>
-          <div className="experience__image">
-            <img src={RandstadImg} alt="Experience Image" />
-          </div>
-        </div>
-
-        <div className="experience__box">
-          <p>
-          ● Spearheaded modernization of legacy monoliths by designing and deploying microservices using Spring Boot and
-GraphQL, improving maintainability and reducing API payload size by 40%.  <br/>
-          ● Implemented GraphQL APIs to enable efficient data querying and reduce payload size, enhancing client
-responsiveness and developer flexibility.  <br/>
-          ● Led efforts in legacy application migration to cloud-native architectures, using containerization and service-based
-designs to modernize functionality and improve maintainability.  <br/>
-          ● Integrated with Kafka for asynchronous event-driven processing, enhancing throughput and system responsiveness
-in high-volume environments.<br/>
-          ●Applied JPA/Hibernate and SQL/NoSQL databases for efficient data modeling, transaction management, and
-optimized query performance. <br/>
-          ●Supported cloud enablement and performance tuning efforts, ensuring high availability, secure deployments, and
-optimal resource utilization across environments. <br/>
-          ● Collaborated with architects and cross-functional teams to define technical roadmaps, implement design patterns,
-and support CI/CD pipelines for streamlined delivery. <br/>
+            ● Full-Stack AI Engineer with strong expertise in building AI-powered web applications, automation, and scalable cloud solutions. With extensive experience in both frontend (React, Next.js, TypeScript) and backend (Python, Node.js, Java), I bring end-to-end development skills and deep knowledge of deploying secure, high performance systems in AWS.  <br />
+            ● I specialize in designing and developing: AI agents and conversational tools (including voice agents), retrieval-augmented generation, custom GPT/LLM integrations, multi-agent systems, automation workflows, and complex API & cloud integrations. I love solving real business problems for SMEs across industries by leveraging the latest AI, devops and automation technologies.  <br />
           </p>
         </div>
       </div>
 
+
+      <div className="experience__content">
+        <div className="experience__nameImg">
+          <div className="experience__info">
+            <p className="experience__year"> Feb 2021 - Jan 2024</p>
+            <h3 className="experience__title">Software Engineer – Backend & Application Modernization</h3>
+          </div>
+          <div className="experience__image">
+            <img src={KyndrylImg} alt="Kyndryl logo" />
+          </div>
+        </div>
+
+        <div className="experience__box">
+          <p>
+            ● Designed and deployed over four microservices for Co-operative Bank using Spring Boot and GraphQL, reducing API payload size by 40% and improving response times by 35% across key customer-facing platforms. <br />
+            ● Implemented GraphQL APIs to enable efficient data querying and minimize response payloads, improving both client responsiveness and developer agility. <br />
+            ● Collaborated on the migration of legacy banking systems to containerized, cloud-native architectures using Docker and Kubernetes, cutting deployment times and enabling seamless CI/CD pipelines. <br />
+            ● Implemented Apache Kafka for asynchronous, event-driven processing, ensuring in-order message delivery and improving throughput for high-volume financial transactions. <br />
+            ● Optimized data management using Spring Data JPA with SQL and NoSQL databases, designing scalable models, managing transactions, and improving query performance across multiple services. <br />
+            ● Built CI/CD pipelines using Jenkins and GitLab CI to automate testing, security scans, and container deployments, improving release frequency and reducing manual deployment effort by 50%. <br />
+            ● Designed centralized logging and distributed tracing using ELK Stack and OpenTelemetry, cutting issue diagnosis time from hours to minutes and improving system observability. <br />
+            ● Drove team-wide code reviews and knowledge sessions that improved code quality, reduced tech debt, and brought consistency to how microservices were developed. <br />
+          </p>
+        </div>
+      </div>
+      {/* 
       <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
@@ -109,9 +84,9 @@ operational efficiency and debugging turnaround times. <br/>
 benchmarking for backend systems under heavy compute loads. <br/>
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="experience__content">
+      {/* <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
             <p className="experience__year"> Nov 2020 - Feb 2021</p>
@@ -137,7 +112,7 @@ availability, cost optimization, and auto-scaling.  <br/>
 error handling, and authentication across services.  <br/> 
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="experience__content">
         <div className="experience__nameImg">
@@ -150,7 +125,7 @@ error handling, and authentication across services.  <br/>
           </div>
         </div> */}
 
-        {/* <div className="experience__box">
+      {/* <div className="experience__box">
           <p>
             ● Created a coding platform using ReactJS, NodeJS, and MySQL, with
             custom IDEs and integrated compilers, engaging over 500 users and
