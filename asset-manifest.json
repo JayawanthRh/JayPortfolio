@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/JayPortfolio/static/css/main.fd64a994.css",
+    "main.js": "/JayPortfolio/static/js/main.797fe8c0.js",
+    "static/js/453.ed3810f9.chunk.js": "/JayPortfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/profile.png": "/JayPortfolio/static/media/profile.bd3ab36540eb940accea.png",
+    "static/media/about.jpg": "/JayPortfolio/static/media/about.9793393ad061ee2afee7.jpg",
+    "static/media/breastCancer.png": "/JayPortfolio/static/media/breastCancer.c10bb7c72f37d9361c8b.png",
+    "static/media/covidDashboard.png": "/JayPortfolio/static/media/covidDashboard.956439bf8b4d60f65213.png",
+    "static/media/schoolManagement.jpg": "/JayPortfolio/static/media/schoolManagement.43e2ad14fb4a9c7f99fd.jpg",
+    "static/media/festManagement.png": "/JayPortfolio/static/media/festManagement.e79730843b89069a5d0e.png",
+    "static/media/Upworklogo.png": "/JayPortfolio/static/media/Upworklogo.f899ccb1411aad21d4d2.png",
+    "static/media/resume.pdf": "/JayPortfolio/static/media/resume.f31ab46c4db1080f20b6.pdf",
+    "static/media/insuranceRatio.png": "/JayPortfolio/static/media/insuranceRatio.4b7e131f81d36b31ec1e.png",
+    "static/media/sentimentalAnalysis.png": "/JayPortfolio/static/media/sentimentalAnalysis.85df45808711b2faa3f5.png",
+    "static/media/dev.png": "/JayPortfolio/static/media/dev.c3c26d5d44b693b58765.png",
+    "static/media/Kyndryllogo.png": "/JayPortfolio/static/media/Kyndryllogo.6546ef492f92cc62e98f.png",
+    "index.html": "/JayPortfolio/index.html",
+    "main.fd64a994.css.map": "/JayPortfolio/static/css/main.fd64a994.css.map",
+    "main.797fe8c0.js.map": "/JayPortfolio/static/js/main.797fe8c0.js.map",
+    "453.ed3810f9.chunk.js.map": "/JayPortfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd64a994.css",
+    "static/js/main.797fe8c0.js"
+  ]
+}
