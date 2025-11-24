@@ -1,4 +1,4 @@
-# JayPortfolio - Personal Portfolio / Digital Resume / Online CV
+# Personal Portfolio / Digital Resume / Online CV
 
 ## Professional Summary
 A dynamic and responsive personal portfolio website designed to showcase professional experience, technical skills, and software engineering projects. This digital resume serves as a centralized hub for potential employers and collaborators to view my qualifications and work history.
@@ -64,3 +64,4 @@ npm run deploy
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
+
