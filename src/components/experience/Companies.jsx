@@ -12,8 +12,8 @@ const Companies = () => {
       <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
-            <p className="experience__year"> Oct 2024 - Present</p>
-            <h3 className="experience__title">Software Engineer – Backend & Application Modernization</h3>
+            <p className="experience__year"> Apr 2024 - Present</p>
+            <h3 className="experience__title">Full-Stack & AI Engineer</h3>
           </div>
           <div className="experience__image">
             <img src={UpworkImg} alt="Upwork logo" />
@@ -23,8 +23,13 @@ const Companies = () => {
 
         <div className="experience__box">
           <p>
-            ● Full-Stack AI Engineer with strong expertise in building AI-powered web applications, automation, and scalable cloud solutions. With extensive experience in both frontend (React, Next.js, TypeScript) and backend (Python, Node.js, Java), I bring end-to-end development skills and deep knowledge of deploying secure, high performance systems in AWS.  <br />
-            ● I specialize in designing and developing: AI agents and conversational tools (including voice agents), retrieval-augmented generation, custom GPT/LLM integrations, multi-agent systems, automation workflows, and complex API & cloud integrations. I love solving real business problems for SMEs across industries by leveraging the latest AI, devops and automation technologies.  <br />
+            ● Developed Python FastAPI automation tools that routed email leads, extracted key details using AI technologies, and updated CRM systems to reduce manual work and improve client response times. <br />
+            ● Developed AI-powered voice receptionist systems that answered calls, guided callers through preset steps, and captured important information for clients. The solutions used Twilio Voice, Next.js, and GPT models, helping clients automate routine call-handling responsibilities. <br />
+            ● Developed a Python and OpenCV solution to count people in retail videos, automating foot-traffic reports and saving 15+ hours of manual work each week. <br />
+            ● Delivered backend systems using FastAPI, PostgreSQL, and databricks-powered data-processing workflows and LLM-based tools such as LangChain and LangGraph to support automation and data-processing needs. Built clean APIs, structured database operations, and integrated model-driven logic, which accelerated client data workflows and reduced processing time. <br />
+            ● Applied JPA/Hibernate and SQL/NoSQL databases for efficient data modeling, transaction management, and optimized query performance, resulting in faster query response and more reliable data handling for client applications. <br />
+            ● Supported cloud enablement and performance tuning on AWS and Google Cloud using Docker, Terraform, and UNIX shell scripting, implementing auto-scaling and monitoring that maintained high availability, secure deployments, and efficient resource use across environments. <br />
+            ● Collaborated with architects and cross-functional teams to define technical roadmaps, implement design patterns with FastAPI and PostgreSQL, and build CI/CD pipelines using Git and Docker, which accelerated delivery cycles and reduced release errors. <br />
           </p>
         </div>
       </div>
@@ -33,8 +38,8 @@ const Companies = () => {
       <div className="experience__content">
         <div className="experience__nameImg">
           <div className="experience__info">
-            <p className="experience__year"> Feb 2021 - Jan 2024</p>
-            <h3 className="experience__title">Software Engineer – Backend & Application Modernization</h3>
+            <p className="experience__year"> Feb 2022 - Dec 2023</p>
+            <h3 className="experience__title">Software Engineer - Application Services & Cloud Deployment</h3>
           </div>
           <div className="experience__image">
             <img src={KyndrylImg} alt="Kyndryl logo" />
@@ -43,14 +48,14 @@ const Companies = () => {
 
         <div className="experience__box">
           <p>
-            ● Designed and deployed over four microservices for Co-operative Bank using Spring Boot and GraphQL, reducing API payload size by 40% and improving response times by 35% across key customer-facing platforms. <br />
-            ● Implemented GraphQL APIs to enable efficient data querying and minimize response payloads, improving both client responsiveness and developer agility. <br />
-            ● Collaborated on the migration of legacy banking systems to containerized, cloud-native architectures using Docker and Kubernetes, cutting deployment times and enabling seamless CI/CD pipelines. <br />
-            ● Implemented Apache Kafka for asynchronous, event-driven processing, ensuring in-order message delivery and improving throughput for high-volume financial transactions. <br />
-            ● Optimized data management using Spring Data JPA with SQL and NoSQL databases, designing scalable models, managing transactions, and improving query performance across multiple services. <br />
-            ● Built CI/CD pipelines using Jenkins and GitLab CI to automate testing, security scans, and container deployments, improving release frequency and reducing manual deployment effort by 50%. <br />
-            ● Designed centralized logging and distributed tracing using ELK Stack and OpenTelemetry, cutting issue diagnosis time from hours to minutes and improving system observability. <br />
-            ● Drove team-wide code reviews and knowledge sessions that improved code quality, reduced tech debt, and brought consistency to how microservices were developed. <br />
+            ● Utilized Spring Boot, REST APIs, HTML and XML-based configurations, IBM Cloud, and Jenkins to develop and deploy application services, streamlining the CI/CD pipeline. <br />
+            ● Contributed to the development and enhancement of IBM Spectrum LSF, a workload management platform for hybrid cloud, using Python, Perl, and Docker, which improved job scheduling speed and increased overall resource utilization. <br />
+            ● Designed and maintained microservices-based backend systems using Spring Boot, enabling modular, scalable support for complex job orchestration and cluster scheduling. <br />
+            ● Built RESTful APIs for job submission, tracking, and resource allocation, ensuring secure and efficient communication between LSF components and external applications. <br />
+            ● Developed backend logic using Python, Git, and databricks APIs to interface with IBM Cloud resources, automating instance provisioning, configuration, and workload distribution across clusters, which cut provisioning time and reduced manual effort. <br />
+            ● Developed cloud-native integrations using Docker and IBM Cloud, deploying microservices on Linux servers to boost availability and system resilience, which lowered downtime incidents. <br />
+            ● Implemented internal tooling for job lifecycle monitoring, log aggregation, and fault tolerance, helping improve operational efficiency and debugging turnaround times. <br />
+            ● Collaborated with QA and DevOps to maintain CI/CD pipelines in Jenkins, run unit tests with JUnit. <br />
           </p>
         </div>
       </div>
